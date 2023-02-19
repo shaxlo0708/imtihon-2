@@ -1,0 +1,59 @@
+.card {
+    margin-top: 160px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.card__item-1 {
+    margin-top: 40px;
+}
+
+.card__item-h3 {
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: $dark-navy;
+}
+
+.card__item-text {
+    margin-top: 27px;
+    margin-bottom: 266px;
+    font-family: $font-1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $dim-grey;
+    max-width: 350px;
+}
+
+.card__line {
+    position: absolute;
+    top: 207px;
+    left: -180px;
+    z-index: -1;
+    & img {
+        width: 974px;
+        height: 2px;
+    }
+}
+
+.easy__mask-right {
+    position: absolute;
+    top: 22px;
+    right: -161px;
+}
+
+.easy__mask-left {
+    position: absolute;
+    top: 660px;
+    left: -161px;
+}
+
+.easy__mask-right-3 {
+    position: absolute;
+    top: 1276px;
+    right: -161px;
+}

@@ -1,0 +1,68 @@
+.easy__left-h2 {
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: $dark-navy;
+    max-width: 445px;
+    margin-bottom: 24px;
+}
+
+.easy__left-p {
+    font-family: $font-1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    max-width: 445px;
+    color: $dim-grey;
+}
+
+.easy__left-btn {
+    border: 3px solid transparent;
+    padding: 14px 39px;
+    background: $yellow-color;
+    color: #fff;
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 160px;
+}
+
+.easy__left-btn:hover {
+    border: 3px solid $yellow-color;
+    background: unset;
+    color: $yellow-color;
+}
+
+.middle-1 {
+    margin-bottom: 150px;
+    @include dfaijc();
+}
+
+.easy__img {
+    border-radius: 50%;
+}
+
+.easy-1 {
+    position: absolute;
+    top: 322px;
+    right: -159px;
+    z-index: 2;
+}
+
+.easy-2 {
+    position: absolute;
+    top: 653px;
+    left: -161px;
+}
+
+.easy-3 {
+    position: absolute;
+    top: 1346px;
+    right: -146px;
+}

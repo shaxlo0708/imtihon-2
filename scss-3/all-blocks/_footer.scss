@@ -1,0 +1,31 @@
+footer {
+    background-color: #333A44;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 6;
+    width: 100vw;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.footer__left {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    & a {
+        padding-left: 12px;
+    }
+}
+
+.icon img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,45 @@
+.menejer {
+    width: 1110px;
+    height: 128px;
+    background: $snow;
+    margin-bottom: 25px;
+}
+
+.men-1 {
+    margin-bottom: 160px;
+}
+
+.menejer__1 {
+    padding: 32px 64px 37px 40px;
+    @include dfaijc();
+    & h3 {
+        font-family: $font-2;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: -1.07143px;
+        color: $dark-navy;
+        padding-bottom: 8px;
+    }
+    & span {
+        font-family: $font-1;
+        font-weight: 400;
+        font-size: 15px;
+        color: $dark-navy;
+    }
+    & button {
+        font-family: $font-2;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: $yellow-color;
+        border: 3px solid transparent;
+        padding: 14px 67px;
+    }
+}
+
+.menejer__1 button:hover {
+    border: 3px solid $yellow-color;
+    background: unset;
+    color: $yellow-color;
+}

@@ -1,0 +1,194 @@
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/space-mono-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/space-mono-v12-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v12-latin-regular.woff") format("woff"), url("../fonts/space-mono-v12-latin-regular.ttf") format("truetype"), url("../fonts/space-mono-v12-latin-regular.svg#SpaceMono") format("svg");
+  /* Legacy iOS */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-deca-v17-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/lexend-deca-v17-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"), url("../fonts/lexend-deca-v17-latin-regular.ttf") format("truetype"), url("../fonts/lexend-deca-v17-latin-regular.svg#LexendDeca") format("svg");
+  /* Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.about__header {
+  height: 200px;
+  width: 1490px;
+  background-image: url("../images/careers-images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-position: center;
+}
+
+.about__header-h h1 {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  padding: 60px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.nav__menu-aul {
+  display: flex;
+}
+
+.nav__menu-ul {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-left: 50px;
+}
+.nav__menu-ul li {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+}
+.nav__menu-ul li a {
+  color: #939CAA;
+}
+
+.nav__menu-ul a:hover {
+  color: #FCB72B;
+}
+
+.nav__menu-btn {
+  border: 3px solid transparent;
+  padding: 14px 39px;
+  background: #FCB72B;
+  color: #fff;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.nav__menu-btn:hover {
+  border: 3px solid #FCB72B;
+  background: unset;
+  color: #FCB72B;
+}
+
+.menejer {
+  width: 1110px;
+  height: 128px;
+  background: #F2F5F9;
+  margin-bottom: 25px;
+}
+
+.men-1 {
+  margin-bottom: 160px;
+}
+
+.menejer__1 {
+  padding: 32px 64px 37px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menejer__1 h3 {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  padding-bottom: 8px;
+}
+.menejer__1 span {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  color: #495567;
+}
+.menejer__1 button {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  border: 3px solid transparent;
+  padding: 14px 67px;
+}
+
+.menejer__1 button:hover {
+  border: 3px solid #FCB72B;
+  background: unset;
+  color: #FCB72B;
+}
+
+footer {
+  background-color: #333A44;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 6;
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+
+.icon a {
+  padding-left: 12px;
+}
+
+.icon img:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=main.css.map */

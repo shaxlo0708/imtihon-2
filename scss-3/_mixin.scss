@@ -1,0 +1,10 @@
+@mixin dfjc() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin dfaijc() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.about__header {
+    height: 200px;
+    width: 1490px;
+    background-image: url("../images/careers-images/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.about__header-h {
+    & h1 {
+        font-family: $font-2;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        padding: 60px;
+    }
+}

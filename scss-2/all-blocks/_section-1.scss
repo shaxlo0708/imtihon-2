@@ -1,0 +1,69 @@
+.middle_part {
+    margin: 100px 0 70px 0;
+}
+
+.our__values-h2 {
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: $dark-navy;
+}
+
+.value__cards {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 120px;
+}
+
+.value-card {
+    max-width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.value__card-img {
+    border-radius: 50%;
+}
+
+.value__card-h3 {
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: $dark-navy;
+    margin-top: 66px;
+}
+
+.value__card-text {
+    font-family: $font-1;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: $dim-grey;
+    margin-top: 27px;
+}
+
+.value__01 {
+    font-family: $font-2;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 31px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    background-color: $yellow-color;
+    width: 96px;
+    height: 96px;
+    border-radius: 48%;
+    position: absolute;
+    top: 194px;
+    left: 123px;
+}
